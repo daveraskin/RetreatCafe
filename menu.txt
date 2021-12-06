@@ -1,0 +1,8 @@
+Bread; Sourdough, White, Sourdough Rye
+Grain; Rice, Quinoa
+Drink Size; 8 ounce, 12 ounce, 16 ounce
+
+
+1, Sweet Potato Pesto Bowl, {Rice, Quinoa}, {Egg}
+2, Avocado Toast, {White, Sourdough, Sourdough Rye}, {Wheat}
+3, Loaded Breakfast Sandwich, {White, Sourdough, Sourdough Rye}, {Wheat, Dairy, Egg}
