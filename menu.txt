@@ -1,8 +1,22 @@
-Bread; Sourdough, White, Sourdough Rye
-Grain; Rice, Quinoa
-Drink Size; 8 ounce, 12 ounce, 16 ounce
+// Modifiers - Mod Name; Mod Item Type; {Mod, add'l Price}, {Mod, add'l Price}
+Bread; 2; {Sourdough, 0}, {White, 0}, {Sourdough Rye, 0}
+Grain; 2; {Rice, 0}, {Quinoa, 1.0}
+Add-On; 2; {Chicken, 4}, {Bacon, 3}, {Tofu, 3}, {Grilled Veggies, 4}
+Size; 1; {8 ounce, *}, {12 ounce, *}, {16 ounce, *}
+Syrup; 1; {Vanilla, .5}, {Hazelnut, .5}, {Lavender, .5}
 
+// ItemTypes - ItemTypeId, ItemType Name
+1; Coffee
+2; Food
 
-1, Sweet Potato Pesto Bowl, {Rice, Quinoa}, {Egg}
-2, Avocado Toast, {White, Sourdough, Sourdough Rye}, {Wheat}
-3, Loaded Breakfast Sandwich, {White, Sourdough, Sourdough Rye}, {Wheat, Dairy, Egg}
+// Menu - ItemTypeId, ItemId, ItemName, KitchenName, {Modifiers}
+2; 1; Sweet Potato Pesto Bowl; {Grain, Add-On}
+2; 2; Avocado Toast; {Bread, Add-On}
+2; 3; Loaded Breakfast Sandwich; {Bread, Add-On}
+
+1; 4; Latte; {Syrup, *Size {0, .5, 1}}
+1; 5; Americano; {Syrup, *Size {0, 0 ,0}}
+1; 6; Cappuccino; {Syrup, *Size {0, .5, 1}}
+1; 7; Cortado; {Syrup}
+1; 8; Mocha; {Syrup, *Size {0, .5, 1}}
+
